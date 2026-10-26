@@ -2,7 +2,7 @@
 
 Öffentliche Website der Physiotherapiepraxis Physiovita Köln, Olpener Straße 925, 51109 Köln.
 
-Produktion: wird nach dem Deploy ergänzt.
+Produktion: https://physiovita-koeln.vercel.app
 
 ```bash
 npm install

@@ -20,6 +20,7 @@ const petrona = Petrona({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://physiovita-koeln.vercel.app"),
   title: {
     default: "Physiovita Köln · Physiotherapie",
     template: "%s · Physiovita Köln",
