@@ -128,8 +128,7 @@ export default function Home() {
             </h2>
             <p className="mt-6 max-w-[58ch] text-lg leading-relaxed">
               Angelo Minacapilli und Bastian Weber führen die Praxis als
-              Inhaber. Beide sind Physiotherapeuten. Ausgangspunkt ist die
-              Zeit für eine Behandlung, die zur ärztlichen Verordnung passt.
+              Inhaber. Beide sind Physiotherapeuten.
             </p>
             <p className="mt-4 max-w-[58ch] text-lg leading-relaxed text-muted-foreground">
               Die Praxis nennt als Schwerpunkte postoperative und orthopädische
@@ -210,7 +209,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="kontakt" className="scroll-mt-20 bg-primary text-primary-foreground">
+      <section id="kontakt" className="scroll-mt-20 border-t border-border">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 lg:grid-cols-12 lg:py-24">
           <div className="lg:col-span-7">
             <h2 className="font-heading text-4xl tracking-[-0.03em]">Kontakt</h2>
@@ -220,7 +219,7 @@ export default function Home() {
             >
               {site.phoneDisplay}
             </a>
-            <p className="mt-6 max-w-[48ch] text-lg leading-relaxed text-primary-foreground/80">
+            <p className="mt-6 max-w-[48ch] text-lg leading-relaxed text-muted-foreground">
               Rufen Sie an oder schreiben Sie eine allgemeine Anfrage. Medizinische
               Angaben zu Ihnen oder zur zu behandelnden Person gehören nicht in
               die E-Mail. Die besprechen wir persönlich.
@@ -229,19 +228,19 @@ export default function Home() {
               <a href={site.emailHref} className="underline-offset-[0.25em] hover:underline">
                 {site.email}
               </a>
-              <span className="mx-2 text-primary-foreground/60">·</span>
+              <span className="mx-2 text-muted-foreground">·</span>
               <a href={site.faxHref} className="tabular-nums underline-offset-[0.25em] hover:underline">
                 Fax {site.faxDisplay}
               </a>
             </p>
           </div>
           <div className="lg:col-span-5">
-            <h3 className="text-sm text-primary-foreground/75">Sprechzeiten</h3>
+            <h3 className="text-sm text-muted-foreground">Sprechzeiten</h3>
             <dl className="mt-3">
               {hours.map((row) => (
                 <div
                   key={row.label}
-                  className="flex items-baseline justify-between gap-6 border-t border-primary-foreground/25 py-3"
+                  className="flex items-baseline justify-between gap-6 border-t border-border py-3"
                 >
                   <dt>{row.label}</dt>
                   <dd className="tabular-nums">{row.value}</dd>

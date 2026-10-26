@@ -87,7 +87,7 @@ Paper with a green cast, ink with a green cast, and one destination green.
 
 ### Primary
 
-- **Destination green** (oklch(0.36 0.062 158)): the Termin plaque, the sticky phone control, and the contact band. Light text on it is destination ink (oklch(0.975 0.008 145)).
+- **Destination green** (oklch(0.36 0.062 158)): the Termin plaque and the sticky phone control. Light text on it is destination ink (oklch(0.975 0.008 145)).
 
 ### Neutral
 
@@ -127,17 +127,15 @@ The sheet is `max-w-6xl`, padded `1.25rem` and `2rem` from the small breakpoint.
 
 ## Elevation & Depth
 
-The sheet is flat. Depth appears only when a surface lifts: the sticky bar after scroll, and the phone plaque on hover.
+The sheet is flat. The sticky bar is a hairline. Depth appears only when the phone plaque lifts on hover.
 
 ### Shadow Vocabulary
 
-- **Bar rest** (`0 12px 28px -20px oklch(0.28 0.03 158 / 0.55)`): the sticky header once the page has moved.
-- **Plaque rest** (`0 10px 24px -18px oklch(0.28 0.04 158 / 0.45)`): the Termin plaque at rest.
-- **Plaque lift** (`0 18px 32px -16px oklch(0.28 0.04 158 / 0.55)` with `translateY(-3px)`): hover and focus on the plaque. Easing is `cubic-bezier(0.16, 1, 0.3, 1)` over 0.45s. Reduced motion keeps the plaque still.
+- **Plaque lift** (`0 18px 32px -16px oklch(0.28 0.04 158 / 0.55)` with `translateY(-3px)`): hover and focus on the plaque. The rest state has no shadow. Easing is `cubic-bezier(0.16, 1, 0.3, 1)` over 0.45s. Reduced motion keeps the plaque still.
 
 ### Named Rules
 
-**The Flat Sheet Rule.** No glass, no blur, no hard offset shadow. A shadow has a vertical offset and a soft blur, and only on the bar or the plaque.
+**The Flat Sheet Rule.** No glass, no blur, no resting shadow. The plaque’s hover shadow has a vertical offset and a soft blur.
 
 ## Shapes
 
@@ -157,9 +155,9 @@ The signature control. Destination green, square, the number in Petrona at displ
 
 Treatment names are a two-column list on wide screens and one column on a phone. Each name sits on a top hairline. There are no icons and no cards.
 
-### Contact band
+### Contact
 
-The same destination green as the plaque, with the number repeated large, then email, fax, hours, and the address.
+Paper, like the rest of the sheet. The number is repeated large in ink, then email, fax, hours, and the address. Destination green stays on the plaque and the sticky phone control.
 
 ### Do's and Don'ts
 

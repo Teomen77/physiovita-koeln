@@ -28,9 +28,6 @@ export function PhonePlaque() {
             }
       }
       transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
-      style={{
-        boxShadow: "0 10px 24px -18px oklch(0.28 0.04 158 / 0.45)",
-      }}
     >
       <span className="block px-6 pt-6 sm:px-8 sm:pt-7">
         <span className="block text-sm font-medium">Termin vereinbaren</span>

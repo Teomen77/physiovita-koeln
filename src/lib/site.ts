@@ -82,7 +82,7 @@ export const serviceGroups = [
       "Sportphysiotherapie",
       "Stage-Physiotherapy",
       "D1-Verordnung („Mini Reha“)",
-      "Hausbesuche auf ärztliche Verordnung",
+      "Hausbesuche",
     ],
   },
 ] as const;
