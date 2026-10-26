@@ -51,12 +51,12 @@ Visitors arrive from search or a referral, read on a phone or a desktop, and cal
 
 - Existing homepage welcome copy (paraphrase, not a claim of outcomes): individual advice and treatment, questions by phone, “Wir bewegen Köln!”, signed Angelo Minacapilli & Bastian Weber.
 - Owners on the team page: Angelo Minacapilli, Physiotherapeut (Inhaber); Bastian Weber, Physiotherapeut (Inhaber).
-- The team page also lists further names (Sandra Klupsch, Michaela Schneider, Amin Barkallah, Frauke Krähling, Nadine Völkner, Dario Formicola, Nathalie Thiry, Claudia Joeris). These are not repeated on the new site: the list is undated and staffing may have changed. Only the two owners, who also appear in the imprint, are named.
+- The team page also lists further names with portraits: Sandra Klupsch, Michaela Schneider, Amin Barkallah, Frauke Krähling, Nadine Völkner, Dario Formicola, Nathalie Thiry, Claudia Joeris. They are shown because the published photographs were requested. Captions are the old figcaptions. The list is undated and should be confirmed.
 - Focus areas named on the team page: postoperative physiotherapy, orthopaedic conditions, sports physiotherapy, neurological conditions, and Stage-Physiotherapy for musicians, singers, dancers, and actors. Stated as scope, not as outcome claims.
 - Service names on https://physiovita-koeln.de/die-leistungen-von-physiovita/ : Beckenbodentherapie, D1-Verordnung („Mini Reha“), Elektrotherapie, Faszientherapie, Fußreflexzonentherapie, Hausbesuche, Hot Stone Massage, Kiefergelenkstherapie, Kinesio-Taping, Krankengymnastik/Physiotherapie, Krankengymnastik am Gerät (MTT), Krankengymnastik nach Bobath, Kryotherapie, Manuelle Lymphdrainage, Manuelle Therapie, Massage, Osteopathie, Schlingentisch-/Extensionstherapie, Schmerztherapie nach Dr. Brügger, Sling Training, Spiraldynamik, Sportphysiotherapie, Stage-Physiotherapy, Stoßwellentherapie (named there as a private Zusatzleistung), Triggerpunktbehandlung, Ultraschall, Wärmetherapie (Fango/Heißluft).
 - Hours conflict: the team page says Mo.–Fr. 08:00–19:00. Contact and homepage say Friday until 15:00. The new site shows the contact-page hours.
 - Patient quotes and artist names appear on the old site. They are not reused. The brief allows only generic social proof or facts clearly on the old site; quotes are left off so none are fabricated or stripped of context.
-- No current photographs of the rooms were supplied. Any generated image is a stand-in and must not be captioned as the practice.
+- Room and team photographs are the files published on https://physiovita-koeln.de/impressionen/raeumlichkeiten/ and https://physiovita-koeln.de/das-team-von-physiovita/. They are the practice’s own pictures, not generated stand-ins. Press photographs of artists are not reused.
 - Logo file on the old site exists; it is not reused as the new identity.
 
 ## Product Principles

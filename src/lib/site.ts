@@ -109,3 +109,35 @@ export function googleMapsLink() {
 export function addressLine() {
   return `${site.street}, ${site.postalCode} ${site.city}`;
 }
+
+/** Portraits and captions from the published team page. */
+export const team = [
+  { name: "Angelo Minacapilli", role: "Physiotherapeut, Inhaber", src: "/praxis/angelo.jpg", width: 418, height: 627 },
+  { name: "Bastian Weber", role: "Physiotherapeut, Inhaber", src: "/praxis/bastian.jpg", width: 420, height: 626 },
+  { name: "Sandra Klupsch", role: "Physiotherapeutin", src: "/praxis/sandra.jpg", width: 418, height: 627 },
+  { name: "Michaela Schneider", role: "Physiotherapeutin", src: "/praxis/michaela.jpg", width: 418, height: 627 },
+  { name: "Amin Barkallah", role: "Physiotherapeut", src: "/praxis/amin.jpg", width: 418, height: 627 },
+  { name: "Frauke Krähling", role: "Heilpraktikerin, Osteopathin, Physiotherapeutin", src: "/praxis/frauke.jpg", width: 418, height: 626 },
+  { name: "Nadine Völkner", role: "Physiotherapeutin", src: "/praxis/nadine.jpg", width: 418, height: 627 },
+  { name: "Dario Formicola", role: "Physiotherapeut", src: "/praxis/dario.jpg", width: 420, height: 626 },
+  { name: "Nathalie Thiry", role: "Rezeption", src: "/praxis/nathalie.jpg", width: 418, height: 627 },
+  { name: "Claudia Joeris", role: "Rezeption", src: "/praxis/claudia.jpg", width: 418, height: 627 },
+] as const;
+
+/** Room photographs from the published Räumlichkeiten page. */
+export const rooms = [
+  { src: "/praxis/raeume07.jpg", alt: "Trainingsraum mit Geräten", width: 1200, height: 800 },
+  { src: "/praxis/raeume03.jpg", alt: "Behandlungsraum mit Liege und Sprossenwand", width: 800, height: 1200 },
+  { src: "/praxis/raeume04.jpg", alt: "Behandlungsraum mit zwei Liegen", width: 800, height: 1200 },
+  { src: "/praxis/raeume06.jpg", alt: "Wartebereich", width: 1200, height: 800 },
+  { src: "/praxis/raeume02.jpg", alt: "Flur der Praxis", width: 800, height: 1200 },
+  { src: "/praxis/raeume09.jpg", alt: "Trainingsraum", width: 1200, height: 800 },
+  { src: "/praxis/raeume08.jpg", alt: "Geräte im Trainingsraum", width: 1200, height: 800 },
+  { src: "/praxis/raeume10.jpg", alt: "Trainingsraum mit weiteren Geräten", width: 1200, height: 800 },
+  { src: "/praxis/raeume01.jpg", alt: "Tür zu einem Behandlungsraum", width: 800, height: 1200 },
+  { src: "/praxis/raeume05.jpg", alt: "Spiegel im Behandlungsraum", width: 800, height: 1200 },
+  { src: "/praxis/raeume11.jpg", alt: "Schlingentrainer im Trainingsraum", width: 1200, height: 800 },
+  { src: "/praxis/handtuecher.jpg", alt: "Handtücher in der Praxis", width: 1152, height: 768 },
+  { src: "/praxis/blume.jpg", alt: "Empfang mit Visitenkarten", width: 1024, height: 1536 },
+  { src: "/praxis/buddha.jpg", alt: "Detail aus den Räumlichkeiten", width: 1024, height: 1536 },
+] as const;

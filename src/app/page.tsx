@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { PhonePlaque } from "@/components/phone-plaque";
 import {
   addressLine,
@@ -5,8 +6,10 @@ import {
   hours,
   mapEmbedSrc,
   osmLink,
+  rooms,
   serviceGroups,
   site,
+  team,
 } from "@/lib/site";
 
 const jsonLd = {
@@ -74,6 +77,17 @@ export default function Home() {
           </a>
           <span className="text-muted-foreground"> · Köln-{site.district}</span>
         </p>
+        <figure className="mt-8 border border-border">
+          <Image
+            src="/praxis/raeume07.jpg"
+            alt="Trainingsraum mit Geräten"
+            width={1200}
+            height={800}
+            priority
+            sizes="(min-width: 1152px) 1088px, 100vw"
+            className="h-auto w-full"
+          />
+        </figure>
       </section>
 
       <section
@@ -159,6 +173,65 @@ export default function Home() {
               </dd>
             </div>
           </dl>
+        </div>
+        <div className="mx-auto max-w-6xl px-5 pb-16 sm:px-8 lg:pb-24">
+          <figure>
+            <Image
+              src="/praxis/team.jpg"
+              alt="Team von Physiovita Köln"
+              width={600}
+              height={900}
+              sizes="(min-width: 768px) 28rem, 100vw"
+              className="h-auto w-full max-w-md"
+            />
+            <figcaption className="mt-3 text-sm text-muted-foreground">
+              Das Team auf der bisherigen Website.
+            </figcaption>
+          </figure>
+          <ul className="mt-8 grid grid-cols-2 gap-px bg-border sm:grid-cols-3 lg:grid-cols-5">
+            {team.map((person) => (
+              <li key={person.src} className="bg-muted">
+                <Image
+                  src={person.src}
+                  alt={`${person.name}, ${person.role}`}
+                  width={person.width}
+                  height={person.height}
+                  sizes="(min-width: 1024px) 18vw, 50vw"
+                  className="aspect-[2/3] h-auto w-full object-cover"
+                />
+                <p className="px-3 py-3">
+                  <span className="block font-heading text-lg leading-tight tracking-[-0.03em]">
+                    {person.name}
+                  </span>
+                  <span className="mt-1 block text-sm text-muted-foreground">
+                    {person.role}
+                  </span>
+                </p>
+              </li>
+            ))}
+          </ul>
+          <h3 className="mt-16 font-heading text-3xl tracking-[-0.03em]">
+            Räumlichkeiten
+          </h3>
+          <p className="mt-3 max-w-[52ch] text-muted-foreground">
+            Aufnahmen der Praxis von der bisherigen Website.
+          </p>
+          <ul className="mt-6 grid grid-cols-2 gap-px bg-border lg:grid-cols-3">
+            {rooms
+              .filter((photo) => photo.src !== "/praxis/raeume07.jpg")
+              .map((photo) => (
+                <li key={photo.src} className="bg-muted">
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    width={photo.width}
+                    height={photo.height}
+                    sizes="(min-width: 1024px) 33vw, 50vw"
+                    className="aspect-[4/3] w-full object-cover"
+                  />
+                </li>
+              ))}
+          </ul>
         </div>
       </section>
 
