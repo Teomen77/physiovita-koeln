@@ -77,17 +77,6 @@ export default function Home() {
           </a>
           <span className="text-muted-foreground"> · Köln-{site.district}</span>
         </p>
-        <figure className="mt-8 border border-border">
-          <Image
-            src="/praxis/raeume07.jpg"
-            alt="Trainingsraum mit Geräten"
-            width={1200}
-            height={800}
-            priority
-            sizes="(min-width: 1152px) 1088px, 100vw"
-            className="h-auto w-full"
-          />
-        </figure>
       </section>
 
       <section
@@ -217,9 +206,7 @@ export default function Home() {
             Aufnahmen der Praxis von der bisherigen Website.
           </p>
           <ul className="mt-6 grid grid-cols-2 gap-px bg-border lg:grid-cols-3">
-            {rooms
-              .filter((photo) => photo.src !== "/praxis/raeume07.jpg")
-              .map((photo) => (
+            {rooms.map((photo) => (
                 <li key={photo.src} className="bg-muted">
                   <Image
                     src={photo.src}
